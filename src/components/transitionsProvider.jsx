@@ -13,7 +13,7 @@ const TransitionProvider = ({ children }) => {
 			<div
 				/* pass in pathname as key to track when we click on another page */
 				key={pathname}
-				className='w-screen h-full bg-gradient-to-b from-blue-100 to-red-100'>
+				className='w-screen h-full bg-gradient-to-b from-blue-100 to-blue-300'>
 				{/* our first animation, comes from above and goes down */}
 				<motion.div
 					className='h-screen w-screen fixed bg-black rounded-b-[100px] z-40'

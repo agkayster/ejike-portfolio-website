@@ -1,7 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const ContactPage = () => {
-	return <div>ContactPage</div>;
+	return (
+		<motion.div
+			className='h-full'
+			initial={{ y: '-200vh' }}
+			animate={{ y: '0%' }}
+			transition={{ duration: 1 }}>
+			Contact page
+		</motion.div>
+	);
 };
 
 export default ContactPage;

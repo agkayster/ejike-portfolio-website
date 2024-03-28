@@ -88,10 +88,7 @@ const NavBar = () => {
 			{/* LINKS */}
 			<div className='hidden md:flex flex-row gap-4 w-1/3'>
 				{links.map(({ url, title }) => (
-					// <NavLink key={title} url={url} title={title} />
-					<Link key={title} href={url}>
-						{title}
-					</Link>
+					<NavLink key={title} url={url} title={title} />
 				))}
 			</div>
 			{/*2nd step: LOGO */}

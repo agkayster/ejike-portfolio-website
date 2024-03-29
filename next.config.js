@@ -4,9 +4,9 @@ module.exports = {
 		remotePatterns: [
 			{
 				protocol: 'https',
-				hostname: 'images.pexels.com',
+				hostname: 'i.imgur.com',
 				port: '',
-				pathname: '/photos/**',
+				pathname: '/**',
 			},
 		],
 	},

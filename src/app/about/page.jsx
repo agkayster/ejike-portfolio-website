@@ -3,7 +3,6 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useInView } from 'framer-motion';
 import BrainComponent from '@/components/brain';
 
-
 import BiographyComponent from '@/components/biography';
 import SkillsComponent from '@/components/skills';
 import ExperienceComponent from '@/components/experience';
@@ -47,7 +46,7 @@ const AboutPage = () => {
 					/>
 				</div>
 				{/* SVG CONTAINER */}
-				<div className='hidden lg:block w-1/3 sticky top-0 z-30 xl:w-1/2'>
+				<div className='hidden lg:block lg:w-1/3 sticky top-0 z-30 xl:w-1/2'>
 					<BrainComponent scrollYProgress={scrollYProgress} />
 				</div>
 			</div>

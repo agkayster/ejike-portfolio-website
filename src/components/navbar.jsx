@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import NavLink from './navLink';
+import NavLink from './navlink';
 import { motion } from 'framer-motion';
 
 import { links } from '@/Utils/pageLinks';

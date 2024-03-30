@@ -5,21 +5,8 @@ import Image from 'next/image';
 import NavLink from './navLink';
 import { motion } from 'framer-motion';
 
-const links = [
-	{ url: '/', title: 'Home' },
-	{ url: '/about', title: 'About' },
-	{ url: '/contact', title: 'Contact' },
-	{ url: '/portfolio', title: 'Portfolio' },
-];
-
-const icons = [
-	{ id: 1, src: '/github.png', alt: 'github image' },
-	{ id: 2, src: '/dribbble.png', alt: 'dribble image' },
-	{ id: 3, src: '/facebook.png', alt: 'facebook image' },
-	{ id: 4, src: '/linkedin.png', alt: 'linkedin image' },
-	{ id: 5, src: '/pinterest.png', alt: 'pinterest image' },
-	{ id: 6, src: '/instagram.png', alt: 'instagram image' },
-];
+import { links } from '@/Utils/pageLinks';
+import { icons } from '@/Utils/socialIcons';
 
 const NavBar = () => {
 	const [open, setOpen] = useState(false);
@@ -104,17 +91,13 @@ const NavBar = () => {
 			</div>
 			{/* 6th Step: SOCIAL */}
 			<div className='w-1/3'>
-				<Link href='/' className='hidden md:flex flex-row gap-4'>
-					{icons.map(({ id, src, alt }) => (
-						<Image
-							src={src}
-							alt={alt}
-							width={24}
-							height={24}
-							key={id}
-						/>
+				<div className='hidden md:flex flex-row gap-4'>
+					{icons.map(({ id, src, alt, url }) => (
+						<Link key={id} href={url}>
+							<Image src={src} alt={alt} width={24} height={24} />
+						</Link>
 					))}
-				</Link>
+				</div>
 			</div>
 			{/* 3rd step: RESPONSIVE MENU/MOBILE */}
 			<div className='md:hidden'>

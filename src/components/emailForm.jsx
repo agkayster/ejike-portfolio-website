@@ -35,6 +35,7 @@ const EmailFormComponent = ({
 					name='user_message'
 					id=''
 					rows={12}
+					placeholder='Type message'
 					className='bg-transparent border-b-2 border-b-black outline-none resize-none'
 				/>
 				<span>My email address is:</span>
@@ -42,6 +43,7 @@ const EmailFormComponent = ({
 					name='user_email'
 					type='text'
 					onChange={handleInputChange}
+					placeholder='Enter email'
 					className='bg-transparent border-b-2 border-b-black outline-none'
 				/>
 				<span>Regards,</span>

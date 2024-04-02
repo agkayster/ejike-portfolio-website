@@ -1,4 +1,5 @@
 import React from 'react';
+import Dialog from './dialog';
 
 const EmailFormComponent = ({
 	form,
@@ -16,14 +17,24 @@ const EmailFormComponent = ({
 				</span>
 			)} */}
 			{success && (
-				<span className='text-green-600 font-semibold text-sm md:text-lg text-center md:-mb-6'>
-					Message sent successfully!
-				</span>
+				// <span className='text-green-600 font-semibold text-sm md:text-lg text-center md:-mb-6'>
+				// 	Message sent successfully!
+				// </span>
+				<Dialog state={success}>
+					<p className='text-center flex items-center justify-center text-base md:text-2xl font-semibold'>
+						Message sent successfully!
+					</p>
+				</Dialog>
 			)}
 			{error && (
-				<span className='text-red-600 font-semibold text-sm md:text-lg text-center md:-mb-6'>
-					Message not sent!
-				</span>
+				// <span className='text-red-600 font-semibold text-sm md:text-lg text-center md:-mb-6'>
+				// 	Message not sent!
+				// </span>
+				<Dialog state={error}>
+					<p className='text-center flex items-center justify-center text-base md:text-2xl font-semibold'>
+						Message not sent!
+					</p>
+				</Dialog>
 			)}
 			<form
 				ref={form}

@@ -1,9 +1,12 @@
 'use client';
 import React, { useRef, useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
 import EmailFormComponent from '@/components/emailForm';
+import { icons } from '@/Utils/socialIcons';
 
 const ContactPage = () => {
 	const [input, setInput] = useState('');
@@ -61,6 +64,14 @@ const ContactPage = () => {
 			animate={{ y: '0%' }}
 			transition={{ duration: 1 }}>
 			<div className='h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48'>
+				{/* SOCIALS */}
+				<div className='flex flex-row items-center justify-center gap-4 md:hidden'>
+					{icons.map(({ id, src, alt, url }) => (
+						<Link key={id} href={url}>
+							<Image src={src} alt={alt} width={24} height={24} />
+						</Link>
+					))}
+				</div>
 				{/* TEXT CONTAINER */}
 				<div className='h-1/3 lg:h-full lg:w-1/2 flex items-center justify-center text-3xl md:text-6xl'>
 					<div>

@@ -11,6 +11,7 @@ import { icons } from '@/Utils/socialIcons';
 const NavBar = () => {
 	const [open, setOpen] = useState(false);
 
+	/* For mobile view */
 	const topVariants = {
 		closed: {
 			rotate: 0,
@@ -21,6 +22,7 @@ const NavBar = () => {
 		},
 	};
 
+	/* For mobile view */
 	const centerVariants = {
 		closed: {
 			opacity: 1,
@@ -30,6 +32,7 @@ const NavBar = () => {
 		},
 	};
 
+	/* For mobile view */
 	const bottomVariants = {
 		closed: {
 			rotate: 0,
@@ -40,6 +43,7 @@ const NavBar = () => {
 		},
 	};
 
+	/* For mobile view */
 	const listVariants = {
 		closed: {
 			x: '100vw',
@@ -53,6 +57,7 @@ const NavBar = () => {
 		},
 	};
 
+	/* For mobile view */
 	const listItemVariants = {
 		closed: {
 			x: -10,

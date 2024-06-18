@@ -17,11 +17,11 @@ export const projectList = [
 	},
 	{
 		id: 3,
-		color: "from-violet-300 to-purple-300",
-		title: 'Pricing Component App',
+		color: 'from-violet-300 to-purple-300',
+		title: 'Restaurant App',
 		desc: 'This component was built using React, Nextjs and Tailwindcss',
-		img: 'https://i.imgur.com/dlQLRVc.png',
-		link: 'https://ejike.dev',
+		img: 'https://i.imgur.com/STW2SSh.png',
+		link: 'https://restaurant-food-iota.vercel.app',
 	},
 	{
 		id: 4,

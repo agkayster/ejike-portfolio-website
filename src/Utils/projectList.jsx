@@ -11,7 +11,7 @@ export const projectList = [
 		id: 2,
 		color: 'from-blue-300 to-violet-300',
 		title: 'Stock Market Chart App',
-		desc: 'This app was built using React, axios, apexCharts, electron and react-apexCharts',
+		desc: 'This app was built using React, axios, apexCharts, and react-apexCharts',
 		img: 'https://i.imgur.com/JHqDNpU.png',
 		link: 'https://ejike.dev',
 	},

@@ -10,10 +10,10 @@ export const projectList = [
 	{
 		id: 2,
 		color: 'from-blue-300 to-violet-300',
-		title: 'Stock Market Chart App',
-		desc: 'This app was built using React, axios, apexCharts, and react-apexCharts',
-		img: 'https://i.imgur.com/JHqDNpU.png',
-		link: 'https://ejike.dev',
+		title: 'AI powered 3D website',
+		desc: 'This app was built using React, Threejs, OpenAI, TailwindCSS and Framer Motion',
+		img: 'https://i.imgur.com/NezoVBD.png',
+		link: 'https://ai-3js-react-website.vercel.app/',
 	},
 	{
 		id: 3,

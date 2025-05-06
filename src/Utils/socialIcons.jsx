@@ -5,7 +5,7 @@ export const icons = [
 		alt: 'github image',
 		url: 'https://github.com/agkayster',
 	},
-	{ id: 2, src: '/dribbble.png', alt: 'dribble image', url: '/' },
+	// { id: 2, src: '/dribbble.png', alt: 'dribble image', url: '/' },
 	{ id: 3, src: '/facebook.png', alt: 'facebook image', url: '/' },
 	{
 		id: 4,
@@ -13,6 +13,6 @@ export const icons = [
 		alt: 'linkedin image',
 		url: 'https://www.linkedin.com/in/ejike-chiboka-pmp/',
 	},
-	{ id: 5, src: '/pinterest.png', alt: 'pinterest image', url: '/' },
-	{ id: 6, src: '/instagram.png', alt: 'instagram image', url: '/' },
+	// { id: 5, src: '/pinterest.png', alt: 'pinterest image', url: '/' },
+	// { id: 6, src: '/instagram.png', alt: 'instagram image', url: '/' },
 ];

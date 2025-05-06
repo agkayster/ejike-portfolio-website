@@ -9,7 +9,7 @@ const BiographyComponent = () => {
 			<h1 className='font-bold text-2xl'>BIOGRAPHY</h1>
 			{/* BIOGRAPHY DESCRIPTION */}
 			<p className='text-lg'>
-				Ejike Chiboka—a personable software developer bringing four
+				Ejike Chiboka—a personable software developer bringing four plus
 				years of robust problem-solving expertise alongside specialized
 				experience in automation and AI/Machine Learning. I craft and
 				design software with a test-driven approach, delivering elegant

@@ -9,16 +9,19 @@ const BiographyComponent = () => {
 			<h1 className='font-bold text-2xl'>BIOGRAPHY</h1>
 			{/* BIOGRAPHY DESCRIPTION */}
 			<p className='text-lg'>
-				My name is Ejike Chiboka and I am a warm and friendly software
-				developer with 4 years of experience in robust problem-solving
-				and 1 year experience in automation and AI/Machine learning
-				skills coupled with creating and designing software in a
-				test-driven environment. I started my Software enigneering
-				journey in 2019 at General Assembly, London and since then, I
-				have never looked back. My drive to provide solutions to
-				problems and overcome challenges leads me to search for a role
-				that combines analytical reasoning, innovation, creativity and
-				fun.
+				Ejike Chiboka—a personable software developer bringing four
+				years of robust problem-solving expertise alongside specialized
+				experience in automation and AI/Machine Learning. I craft and
+				design software with a test-driven approach, delivering elegant
+				solutions to complex challenges. My software engineering journey
+				began in 2019 at General Assembly, London—a pivotal moment that
+				set me on an unwavering path forward. I thrive at the
+				intersection of analytical reasoning and creative innovation,
+				constantly seeking opportunities where technical precision meets
+				imaginative problem-solving. I&apos;m drawn to environments that
+				value both intellectual rigor and collaborative energy—where
+				serious development work coexists with genuine enjoyment of the
+				craft.
 			</p>
 			{/* BIOGRAPHY QUOTE */}
 			<span className='italic'>You become what you consistently do!</span>

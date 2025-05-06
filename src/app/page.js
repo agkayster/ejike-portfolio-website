@@ -31,11 +31,11 @@ export default function Home() {
 					</h1>
 					{/* DESCRIPTION */}
 					<p className='md:text-xl'>
-						Hey, my name is Ejike Chiboka and you are welcome to my
-						digital canvas, where innovation and creativity
-						converge. With a keen eye for aesthetics and a mastery
-						of code, my portfolio showcases a diverse collection of
-						projects that reflect my commitment to excellence.
+						Ejike Chiboka here. Welcome to my digital canvas—a
+						confluence of innovation and creativity. My work marries
+						aesthetic vision with technical mastery, presenting a
+						diverse portfolio that embodies my unwavering commitment
+						to excellence.
 					</p>
 					{/* BUTTONS */}
 					<div className='lg:w-full flex gap-4 mb-10'>
